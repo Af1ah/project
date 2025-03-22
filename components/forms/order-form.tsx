@@ -33,6 +33,11 @@ const orderFormSchema = z.object({
   colorScheme: z.string().min(1, "Please select a color scheme"),
   referenceSites: z.string().optional(),
   additionalNotes: z.string().optional(),
+  businessType: z.string().optional(),
+  serviceCount: z.string().optional(),
+  seoRequirements: z.string().optional(),
+  customFeatures: z.string().optional(),
+  integrationRequirements: z.string().optional(),
 })
 
 type OrderFormValues = z.infer<typeof orderFormSchema>
@@ -54,6 +59,11 @@ export function OrderForm() {
       colorScheme: "",
       referenceSites: "",
       additionalNotes: "",
+      businessType: "",
+      serviceCount: "",
+      seoRequirements: "",
+      customFeatures: "",
+      integrationRequirements: "",
     },
   })
 
