@@ -357,7 +357,11 @@ export function OrderForm() {
               <FormItem>
                 <FormLabel>Color Scheme</FormLabel>
                 <FormControl>
-                  <ColorPicker value={field.value} onChange={field.onChange} />
+                  <ColorPicker 
+                    label="Choose your preferred color scheme"
+                    value={field.value} 
+                    onChange={field.onChange} 
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
