@@ -94,7 +94,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-secondary" />
-                  <span>info@webflowmaster.com</span>
+                  <span>muhammadaflah23524@gmail.com</span>
                 </div>
               </div>
             </div>

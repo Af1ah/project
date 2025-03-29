@@ -6,16 +6,16 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
 const stats = [
-  { label: "Years Experience", value: "1+" },
-  { label: "Projects Completed", value: "50+" },
-  { label: "Satisfied Clients", value: "40+" },
-  { label: "Technologies", value: "15+" },
+  { label: "months Experience", value: "6+" },
+  { label: "Projects Completed", value: "5+" },
+  { label: "Satisfied Clients", value: "1+" },
+  { label: "Technologies", value: "8+" },
 ]
 
 const technologies = [
   "Node.js", "React", "Next.js", "TypeScript",
-  "Express.js", "PostgreSQL", "Tailwind CSS",
-  "REST APIs", "GraphQL", "Git"
+  "PostgreSQL", "Tailwind CSS",
+  "REST APIs", "Git"
 ]
 
 export default function AboutPage() {

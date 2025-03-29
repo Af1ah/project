@@ -8,34 +8,15 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge"
 
 const projects = [
-  {
-    title: "E-commerce Platform",
-    description: "A full-featured e-commerce platform with product management, shopping cart, and payment integration.",
-    image: "/portfolio/ecommerce.jpg",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
-    link: "#",
-  },
-  {
-    title: "Business Website",
-    description: "Modern business website with responsive design and contact form integration.",
-    image: "/portfolio/business.jpg",
-    tags: ["React", "Tailwind CSS", "Form Handling"],
-    link: "#",
-  },
+  
   {
     title: "Portfolio Website",
     description: "Clean and professional portfolio website showcasing creative work.",
-    image: "/portfolio/portfolio.jpg",
+    image: "/assets/images/portfolio_web.png",
     tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
-    link: "#",
+    link: "https://portfolio-vfx.vercel.app/",
   },
-  {
-    title: "Restaurant Website",
-    description: "Beautiful restaurant website with menu management and online reservations.",
-    image: "/portfolio/restaurant.jpg",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Booking System"],
-    link: "#",
-  },
+ 
 ]
 
 const container = {
